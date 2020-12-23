@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 100vh;
+  background-color:rgb(222, 222, 228);
+}
+.cameraOutput{
+  height: 30vh;
+  overflow: hidden;
+}
+.resultList{
+  height: 55vh;
+  padding-top:2rem;
+  background-color:rgb(222, 222, 228);
+}
+.bottomControls{
+  height: 15vh;
+  background-color:rgb(222, 222, 228);
+}
+.bottomControls button{
+  outline: none;
+  border: none;
+  background-color:rgb(242, 154, 99);
+  padding: 1rem 2rem;
+  color: rgb(47, 38, 38);
+  font-weight: 600;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin:1rem;
+}
+.hideVideo{
+  display: none;
+}
